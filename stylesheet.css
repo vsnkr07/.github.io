@@ -1,0 +1,134 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+JP');
+
+body {
+  font-family:'Noto Sans JP', sans-serif;
+}
+
+/* ここからCSSを記述してください */
+header{
+  height:90px;
+  background-color:#426579;
+  color:#fff;
+}
+
+.header-logo{
+  float:left;
+  padding:20px 40px;
+  font-size:36px;
+  font-weight: normal;
+}
+
+.header-list{
+  float:right;
+}
+
+.header-list li{
+  float:left;
+  padding:33px 20px;
+  list-style: none;
+}
+
+.main{
+  padding:100px 80px;
+}
+
+.copy-container{
+  text-align:left;
+}
+
+.copy-container h1{
+  font-size:80px;
+  letter-spacing:10px;
+}
+
+.copy-container span{
+  color:#c2302a;
+}
+
+.copy-container h2{
+  font-size:40px;
+  padding-top:50px;
+}
+
+.profile{
+  padding-top:100px;
+}
+
+.profile-title{
+  font-size:28px;
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+  margin-bottom:50px;
+}
+
+.results{
+  padding-top:100px;
+}
+
+.results-title{
+  font-size:28px;
+  padding-bottom:15px;
+  border-bottom:2px solid #dee7ec;
+  margin-bottom:50px;
+}
+
+.results li{
+  padding-bottom:20px;
+}
+
+.results ul{
+  padding-bottom:20px;
+}
+
+.form{
+  padding-top:100px;
+}
+
+.form-title{
+  font-size:28px;
+  border-bottom:2px solid #dee7ec;
+  padding-bottom:15px;
+  margin-bottom:50px;
+}
+
+input,textarea{
+  width:400px;
+  padding:20px;
+  border:1px solid #dee7ec;
+  margin-top:10px;
+  margin-bottom:30px;
+  font-size:18px;
+}
+
+.submit-button{
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+footer{
+  padding:40px;
+  height:120px;
+  background-color:#2f5167;
+  color:#fff;
+}
+
+.footer-logo{
+  font-size:32px;
+  float:left;
+}
+
+.footer-list{
+  float:right;
+}
+
+.footer-list li{
+  padding-bottom:20px;
+}
